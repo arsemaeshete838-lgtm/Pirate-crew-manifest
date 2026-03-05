@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pirate Crew Assignment</title>
+    <style>
+        /* Light blue to white gradient for the whole page */
+        body {
+            background: linear-gradient(to bottom, #e0f2ff, #ffffff);
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+        }
+
+        /* The Main Header Box */
+        .main-title {
+            text-align: center;
+            background-color: white;
+            border: 3px solid #003366; 
+            padding: 20px;
+            margin-bottom: 40px; /* Space below the header */
+        }
+
+        /* General style for all crew boxes */
+        .crew-item {
+            background-color: white;
+            margin-bottom: 25px; /* Added more space between boxes */
+            padding: 20px;
+            border-width: 3px;
+            border-style: solid;
+        }
+
+        /* Different colored borders for each box */
+        .border-blue   { border-color: blue; }
+        .border-red    { border-color: red; }
+        .border-green  { border-color: green; }
+        .border-orange { border-color: orange; }
+        .border-purple { border-color: purple; }
+
+        h1 {
+            color: #003366;
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .label {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        a {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-title">
+        <h1>Pirate Crew Manifest</h1>
+    </div>
+
+    <div class="crew-item border-blue">
+        <h2 style="color: blue;">Captain Redbeard</h2>
+        <p><span class="label">Role:</span> Captain</p>
+        <p><span class="label">Bounty:</span> 5000 gold coins</p>
+        <p><a href="#">Click for Details</a></p>
+    </div>
+
+    <div class="crew-item border-red">
+        <h2 style="color: red;">First Mate Silverhook</h2>
+        <p><span class="label">Role:</span> First Mate</p>
+        <p><span class="label">Bounty:</span> 3500 gold coins</p>
+        <p><a href="#">Click for Details</a></p>
+    </div>
+
+    <div class="crew-item border-green">
+        <h2 style="color: green;">Gunner Blackpowder</h2>
+        <p><span class="label">Role:</span> Gunner</p>
+        <p><span class="label">Bounty:</span> 2000 gold coins</p>
+        <p><a href="#">Click for Details</a></p>
+    </div>
+
+    <div class="crew-item border-orange">
+        <h2 style="color: orange;">Navigator Windy</h2>
+        <p><span class="label">Role:</span> Navigator</p>
+        <p><span class="label">Bounty:</span> 1500 gold coins</p>
+        <p><a href="#">Click for Details</a></p>
+    </div>
+
+    <div class="crew-item border-purple">
+        <h2 style="color: purple;">Cook Saltbeard</h2>
+        <p><span class="label">Role:</span> Cook</p>
+        <p><span class="label">Bounty:</span> 1000 gold coins</p>
+        <p><a href="#">Click for Details</a></p>
+    </div>
+
+</body>
+</html>
